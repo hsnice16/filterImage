@@ -5,7 +5,7 @@
   border-radius: 5px;
   background-color: ivory; }
 
-@media (max-width: 200px) {
+@media (max-width: 100px) {
   .canvas_class {
     text-align: center;
     padding: 20px;
