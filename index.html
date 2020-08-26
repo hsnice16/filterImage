@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+
+        <title>Filter Image</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="first_h1">
+            <span id="B">B</span>
+            <span id="u">u</span>
+            <span id="e">e</span>
+            <span id="n">n</span>
+            <span id="o">o</span>
+        </h1>
+        <h2 id="first_h2">
+            Upload your photo and apply filter to it!!
+        </h2>
+
+        <div id="canvas_container">
+            <div class="canvas_class">
+                <canvas></canvas>
+                <br><br>
+                <label class="custom-file-upload">
+                    <input type="file" multiple="false" accept="image/*" id="Image" onchange="loadImage()"/>
+                    Upload Image!
+                </label>
+            </div>
+            <div class="canvas_class">
+                <canvas></canvas>
+                <br><br>
+                <a href="#" id="download" onclick="prepDownload(this, document.getElementById('myCanvas2'), 'imgName.png')"><span>Download<span></a>
+                <button id="resetfilter" onclick="resetFilter()">Clear Filter</button>
+            </div>
+        </div>
+
+        <h2>Choose Filter!!!</h2>
+        <div id="button_container">
+            <div>
+                <button id="grayscale" onclick="applyGrayScale()">GrayScale</button>
+            </div>
+            <div>
+                <button id="red" onclick="applyRed()">Red</button>
+            </div>
+            <div>
+                <button id="rainbow" onclick="applyRainbow()">Rainbow</button>
+            </div>
+            <div>
+                <button id="blur" onclick="applyBlur()">Crayon Form</button>
+            </div>
+            <div>
+                <button id="negative" onclick="applyNegative()">Negative</button>
+            </div>
+        </div>
+    </body>
+</html>
