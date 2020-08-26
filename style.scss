@@ -15,6 +15,21 @@ $colorN: rgb(116, 120, 148);
     background-color: $colorI;
 }
 
+@media (max-width: 200px){
+    .canvas_class {
+        text-align: center;
+        // margin-left: 1%;
+        padding: 20px;
+        padding-left: 100px;
+    }
+
+    canvas {
+        border-radius: 5px;
+        background-color: grey;
+        // width: 350px;
+    }    
+}
+
 body {
     text-align: center;
     background-color: #3e5c5c;
