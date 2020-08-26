@@ -1,0 +1,164 @@
+
+$colorR: red;
+$colorI: ivory;
+$colorG: #708090;
+$colorB: rgb(44, 39, 39);
+$colorF: black;
+$colorRB: cornflowerblue;
+$colorN: rgb(116, 120, 148);
+
+%common {
+    font-size: 25px;
+    font-family: monospace;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: $colorI;
+}
+
+body {
+    text-align: center;
+    background-color: #3e5c5c;
+}
+
+#first_h1 {
+    font-size: 50px;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: -5px;
+    span {
+        margin-right: -12px;
+    }
+}
+
+
+#B, #n {
+    color: rgb(250, 95, 95);
+}
+#u, #o {
+    color: rgb(81, 81, 235);
+}
+#e {
+    color: orange;
+}
+
+#first_h2 {
+    margin-top: -25px;
+    text-align: left;
+    font-size: 35px;
+    background-color: rgb(223, 223, 223);
+    padding: 10px;
+    padding-left: 20px;
+    color: rgb(184, 68, 68);
+}
+
+#canvas_container, #button_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.canvas_class {
+    text-align: center;
+    margin-left: 18%;
+    margin-right: -10%;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+canvas {
+    border-radius: 5px;
+    background-color: grey;
+    width: 350px;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.custom-file-upload {
+    @extend %common;
+    border: 2px solid #191970;
+    cursor: pointer;
+    color: #191970;
+}
+.custom-file-upload:hover{
+    background-color: #191970;
+    color: $colorI;
+}
+
+#download {
+    text-decoration: none;
+}
+
+#download > span{
+    @extend %common;
+    color: $colorR;
+    border: 2px solid $colorR;
+}
+#download > span:hover{
+    background-color: $colorR;
+    color: $colorI;
+}
+
+h2 {
+    font-size: 30px;
+    color: orange;
+}
+
+#button_container {
+    margin-left: 25%;
+}
+
+button{
+    @extend %common;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+#negative{
+  border-color: $colorN;
+  color: $colorN;
+}
+#negative:hover{
+  color: $colorI;
+  background-color: $colorN;
+}
+#rainbow{
+  border-color: $colorRB;
+  color: $colorRB;
+}
+#rainbow:hover{
+    color: $colorI;
+    background-color: $colorRB;
+}
+#red{
+  border-color: $colorR;
+  color:$colorR;
+}
+#red:hover{
+  background-color: $colorR;
+  color: $colorI;
+}
+#resetfilter{
+    border-color: $colorF;
+    color: $colorF;
+}
+#resetfilter:hover{
+    color: $colorI;
+    background-color: $colorF;
+}
+#blur{
+    border-color: $colorB;
+    color: $colorB;
+}
+#blur:hover{
+    background-color: $colorB;
+    color: $colorI;
+}
+#grayscale{
+    border-color: $colorG;
+    color: $colorG;
+}
+#grayscale:hover{
+    background-color: $colorG;
+    color: $colorI;
+}

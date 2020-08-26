@@ -1,0 +1,136 @@
+.custom-file-upload, #download > span, button {
+  font-size: 25px;
+  font-family: monospace;
+  padding: 4px;
+  border-radius: 5px;
+  background-color: ivory; }
+
+body {
+  text-align: center;
+  background-color: #3e5c5c; }
+
+#first_h1 {
+  font-size: 50px;
+  text-align: left;
+  margin-left: 15px;
+  margin-top: -5px; }
+  #first_h1 span {
+    margin-right: -12px; }
+
+#B, #n {
+  color: #fa5f5f; }
+
+#u, #o {
+  color: #5151eb; }
+
+#e {
+  color: orange; }
+
+#first_h2 {
+  margin-top: -25px;
+  text-align: left;
+  font-size: 35px;
+  background-color: #dfdfdf;
+  padding: 10px;
+  padding-left: 20px;
+  color: #b84444; }
+
+#canvas_container, #button_container {
+  display: flex;
+  flex-wrap: wrap; }
+
+.canvas_class {
+  text-align: center;
+  margin-left: 18%;
+  margin-right: -10%;
+  margin-bottom: 5px;
+  padding: 20px; }
+
+canvas {
+  border-radius: 5px;
+  background-color: grey;
+  width: 350px; }
+
+input[type="file"] {
+  display: none; }
+
+.custom-file-upload {
+  border: 2px solid #191970;
+  cursor: pointer;
+  color: #191970; }
+
+.custom-file-upload:hover {
+  background-color: #191970;
+  color: ivory; }
+
+#download {
+  text-decoration: none; }
+
+#download > span {
+  color: red;
+  border: 2px solid red; }
+
+#download > span:hover {
+  background-color: red;
+  color: ivory; }
+
+h2 {
+  font-size: 30px;
+  color: orange; }
+
+#button_container {
+  margin-left: 25%; }
+
+button {
+  cursor: pointer;
+  margin-right: 20px; }
+
+#negative {
+  border-color: #747894;
+  color: #747894; }
+
+#negative:hover {
+  color: ivory;
+  background-color: #747894; }
+
+#rainbow {
+  border-color: cornflowerblue;
+  color: cornflowerblue; }
+
+#rainbow:hover {
+  color: ivory;
+  background-color: cornflowerblue; }
+
+#red {
+  border-color: red;
+  color: red; }
+
+#red:hover {
+  background-color: red;
+  color: ivory; }
+
+#resetfilter {
+  border-color: black;
+  color: black; }
+
+#resetfilter:hover {
+  color: ivory;
+  background-color: black; }
+
+#blur {
+  border-color: #2c2727;
+  color: #2c2727; }
+
+#blur:hover {
+  background-color: #2c2727;
+  color: ivory; }
+
+#grayscale {
+  border-color: #708090;
+  color: #708090; }
+
+#grayscale:hover {
+  background-color: #708090;
+  color: ivory; }
+
+/*# sourceMappingURL=style.css.map */
