@@ -55,7 +55,6 @@ body {
 }
 
 @media (min-width: 600px){
-   
     .canvas_class {
         text-align: center;
         margin-left: 1%;
@@ -66,6 +65,10 @@ body {
         border-radius: 5px;
         background-color: grey;
         width: 500px;
+    }
+
+    #button_container {
+        margin-left: 25%;
     }
 }
 
@@ -79,6 +82,13 @@ body {
         background-color: grey;
         width: 300px;
     }    
+    #canvas2 {
+        margin-left: -20px;
+    }
+    
+    #button_container {
+        margin-left: 5%;
+    }
 }
 
 input[type="file"]{
@@ -115,10 +125,6 @@ h2 {
     color: orange;
 }
 
-#button_container {
-    margin-left: 25%;
-}
-
 button{
     @extend %common;
     cursor: pointer;
@@ -127,28 +133,28 @@ button{
 }
 
 #negative{
-border-color: $colorN;
-color: $colorN;
+    border-color: $colorN;
+    color: $colorN;
 }
 #negative:hover{
-color: $colorI;
-background-color: $colorN;
+    color: $colorI;
+    background-color: $colorN;
 }
 #rainbow{
-border-color: $colorRB;
-color: $colorRB;
+    border-color: $colorRB;
+    color: $colorRB;
 }
 #rainbow:hover{
     color: $colorI;
     background-color: $colorRB;
 }
 #red{
-border-color: $colorR;
-color:$colorR;
+    border-color: $colorR;
+    color:$colorR;
 }
 #red:hover{
-background-color: $colorR;
-color: $colorI;
+    background-color: $colorR;
+    color: $colorI;
 }
 #resetfilter{
     border-color: $colorF;

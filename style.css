@@ -48,7 +48,10 @@ body {
   canvas {
     border-radius: 5px;
     background-color: grey;
-    width: 500px; } }
+    width: 500px; }
+
+  #button_container {
+    margin-left: 25%; } }
 @media (max-width: 599px) {
   .canvas_class {
     text-align: center;
@@ -57,7 +60,13 @@ body {
   canvas {
     border-radius: 5px;
     background-color: grey;
-    width: 300px; } }
+    width: 300px; }
+
+  #canvas2 {
+    margin-left: -20px; }
+
+  #button_container {
+    margin-left: 5%; } }
 input[type="file"] {
   display: none; }
 
@@ -84,9 +93,6 @@ input[type="file"] {
 h2 {
   font-size: 30px;
   color: orange; }
-
-#button_container {
-  margin-left: 25%; }
 
 button {
   cursor: pointer;
