@@ -54,7 +54,7 @@ body {
     flex-wrap: wrap;
 }
 
-@media (min-width: 600px){
+@media (min-width: 900px){
     .canvas_class {
         text-align: center;
         margin-left: 1%;
@@ -72,7 +72,7 @@ body {
     }
 }
 
-@media (max-width: 599px){
+@media (max-width: 899px){
     .canvas_class {
         text-align: center;
         padding: 10px;
