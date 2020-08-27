@@ -52,7 +52,7 @@ body {
 
   #button_container {
     margin-left: 25%; } }
-@media (max-width: 899px) {
+@media (max-width: 89px) {
   .canvas_class {
     text-align: center;
     padding: 10px; }
