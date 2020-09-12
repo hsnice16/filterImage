@@ -240,17 +240,16 @@ document.addEventListener('DOMContentLoaded', () => {
     } ;
 
     // download
-    const a_tag = document.getElementById('Download') ;
-    a_tag.onclick = () => {
+    document.getElementById('Download').onclick = () => {
 
         if(check !== false) {
 
-            a_tag.download = name;
-            a_tag.href = canvas2.toDataURL();
+            document.getElementById('Download').download = name;
+            document.getElementById('Download').href = canvas2.toDataURL();
         } else {
 
             console.log('no filter!') ;
-            a_tag.href = '#' ;
+            document.getElementById('Download').href = '#' ;
         }
     
     } ;
