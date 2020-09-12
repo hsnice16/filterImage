@@ -247,6 +247,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('Download').href = canvas2.toDataURL();
         } else {
             console.log('no filter!') ;
+            document.getElementById('Download').href = "#" ;
         }
     
     } ;
