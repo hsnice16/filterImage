@@ -229,7 +229,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('clearfilter').onclick = () => {
 
         if (check !== false) {
-
             check = false ;
             let ctx = canvas2.getContext("2d") ;
             ctx.clearRect(0, 0, canvas2.width, canvas2.height) ;
@@ -243,11 +242,9 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('Download').onclick = () => {
 
         if(check !== false) {
-
             document.getElementById('Download').download = name;
             document.getElementById('Download').href = canvas2.toDataURL();
         } else {
-
             console.log('no filter!') ;
             document.getElementById('Download').href = "#" ;
         }
@@ -275,7 +272,6 @@ function getNearByYcoordinate(yCoord) {
     let rand = Math.random()*10 ;
   
     while(rand >= 0) {
-
         if(rand+yCoord < canvas1.height) {
             return rand+yCoord ;
         } else {
