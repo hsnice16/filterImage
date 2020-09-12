@@ -251,6 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
 
             console.log('no filter!') ;
+            a_tag.href = '#' ;
         }
     
     } ;
