@@ -231,7 +231,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (check !== false) {
 
             check = false ;
-            document.getElementById('Download').href = "#" ;
             let ctx = canvas2.getContext("2d") ;
             ctx.clearRect(0, 0, canvas2.width, canvas2.height) ;
             name = null ;
