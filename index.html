@@ -7,6 +7,12 @@
         <title>Filter Image</title>
 
         <link rel="stylesheet" href="style.css">
+
+        <!-- source of SimpleImage.js -->
+        <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+        <script src="script.js"></script>
+
     </head>
     <body>
         <h1 id="first_h1">
@@ -22,38 +28,38 @@
 
         <div id="canvas_container">
             <div class="canvas_class">
-                <canvas></canvas>
+                <canvas id="canvas1"></canvas>
                 <br><br><br>
                 <!-- taken from stack overflow -->
                 <label class="custom-file-upload">
-                    <input type="file" multiple="false" accept="image/*" id="Image" onchange="loadImage()"/>
+                    <input type="file" multiple="false" accept="image/*" id="Image"/>
                     Upload Image!
                 </label>
             </div>
             <div class="canvas_class">
                 <canvas id="canvas2"></canvas>
                 <br><br> 
-                <a href="#" id="download" onclick="prepDownload(this, document.getElementById('myCanvas2'), 'imgName.png')"><span>Download<span></a>
-                <button id="resetfilter" onclick="resetFilter()">Clear Filter</button>
+                <a href="#" id="Download"><span>Download<span></a>
+                <button id="clearfilter">Clear Filter</button>
             </div>
         </div>
 
         <h2>Choose Filter!!!</h2>
         <div id="button_container">
             <div>
-                <button id="grayscale" onclick="applyGrayScale()">GrayScale</button>
+                <button id="grayscale">GrayScale</button>
             </div>
             <div>
-                <button id="red" onclick="applyRed()">Red</button>
+                <button id="red">Red</button>
             </div>
             <div>
-                <button id="rainbow" onclick="applyRainbow()">Rainbow</button>
+                <button id="rainbow">Rainbow</button>
             </div>
             <div>
-                <button id="blur" onclick="applyBlur()">Crayon Form</button>
+                <button id="crayon">Crayon Form</button>
             </div>
             <div>
-                <button id="negative" onclick="applyNegative()">Negative</button>
+                <button id="negative">Negative</button>
             </div>
         </div>
     </body>

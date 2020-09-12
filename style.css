@@ -1,4 +1,4 @@
-.custom-file-upload, #download > span, button {
+.custom-file-upload, #Download > span, button {
   font-size: 25px;
   font-family: monospace;
   padding: 4px;
@@ -79,14 +79,14 @@ input[type="file"] {
   background-color: #191970;
   color: ivory; }
 
-#download {
+#Download {
   text-decoration: none; }
 
-#download > span {
+#Download > span {
   color: red;
   border: 2px solid red; }
 
-#download > span:hover {
+#Download > span:hover {
   background-color: red;
   color: ivory; }
 
@@ -123,19 +123,19 @@ button {
   background-color: red;
   color: ivory; }
 
-#resetfilter {
+#clearfilter {
   border-color: black;
   color: black; }
 
-#resetfilter:hover {
+#clearfilter:hover {
   color: ivory;
   background-color: black; }
 
-#blur {
+#crayon {
   border-color: #2c2727;
   color: #2c2727; }
 
-#blur:hover {
+#crayon:hover {
   background-color: #2c2727;
   color: ivory; }
 

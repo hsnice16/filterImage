@@ -1,3 +1,5 @@
+
+
 $colorR: red;
 $colorI: ivory;
 $colorG: #708090;
@@ -106,16 +108,16 @@ input[type="file"]{
     color: $colorI;
 }
 
-#download {
+#Download {
     text-decoration: none;
 }
 
-#download > span{
+#Download > span{
     @extend %common;
     color: $colorR;
     border: 2px solid $colorR;
 }
-#download > span:hover{
+#Download > span:hover{
     background-color: $colorR;
     color: $colorI;
 }
@@ -156,19 +158,19 @@ button{
     background-color: $colorR;
     color: $colorI;
 }
-#resetfilter{
+#clearfilter{
     border-color: $colorF;
     color: $colorF;
 }
-#resetfilter:hover{
+#clearfilter:hover{
     color: $colorI;
     background-color: $colorF;
 }
-#blur{
+#crayon{
     border-color: $colorB;
     color: $colorB;
 }
-#blur:hover{
+#crayon:hover{
     background-color: $colorB;
     color: $colorI;
 }
