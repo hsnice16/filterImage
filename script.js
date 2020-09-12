@@ -248,6 +248,8 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log(check) ;
             a_tag.download = name;
             a_tag.href = canvas2.toDataURL();
+        } else {
+            console.log(check) ;
         }
     
     } ;
