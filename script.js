@@ -245,9 +245,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if(check !== false) {
             document.getElementById('Download').download = name;
             document.getElementById('Download').href = canvas2.toDataURL();
-        } else {
-            console.log('no filter!') ;
-            document.getElementById('Download').href = "#" ;
         }
     
     } ;
