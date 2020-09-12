@@ -249,7 +249,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
 
             console.log('no filter!') ;
-            document.getElementById('Download').href = '#' ;
+            document.getElementById('Download').href = "#" ;
         }
     
     } ;
