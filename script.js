@@ -245,11 +245,12 @@ document.addEventListener('DOMContentLoaded', () => {
     a_tag.onclick = () => {
 
         if(check !== false) {
-            console.log(check) ;
+
             a_tag.download = name;
             a_tag.href = canvas2.toDataURL();
         } else {
-            console.log(check) ;
+
+            console.log('no filter!') ;
         }
     
     } ;
