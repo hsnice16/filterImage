@@ -1,7 +1,13 @@
-# filterImage
+## filterImage
 
-filterImage allows you to filter your image in grayscale, red, negative, crayon form and rainbow.
+filterImage allows you to filter your image in 
+1. grayscale
+2. red
+3. negative
+4. crayon form 
+5. rainbow.
 
-*It may work slow on phone
+#### It may work slow for large size image
 
-Take a demo : [link of page](https://filterimage.live/)
+### Have a look !
+link: [go live](https://filterimage.live/)
