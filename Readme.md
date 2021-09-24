@@ -10,4 +10,4 @@ filterImage allows you to filter your image in
 #### It may work slow for large size image
 
 ### Have a look !
-link: [go live](https://filterimage.live/)
+link: [go live](https://hsnice16.github.io/filterImage/)
